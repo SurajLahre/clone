@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+h2 {
+  text-align: center;
+  width: 100%;
+  margin-right: 7em;
+  margin-top: 10px;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.377);
+  background-size: cover;
+}
+
+.loacation-wraper-search-container {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.459);
+  vertical-align: middle;
+  width: 50vw;
+  padding: .5em;
+
+}
+
+.glassicon {
+  padding: 1em;
+}
+
+.location-wraper {
+  display: flex;
+  width: 25em;
+  align-items: center;
+}
+
+.search-searchicon-wraper {
+  display: flex;
+  align-items: center;
+}
+
+.location-name {
+  margin-left: 1em;
+  width: 90%;
+  height: 100%;
+  background-color: transparent;
+  color: white;
+  position: relative;
+  outline: none;
+}
+
+.location-name option {
+  color: black;
+  padding: 1em;
+}
+
+.header-search-content-right {
+  display: flex;
+}
+
+.header-search-content-right i {
+
+  font-size: x-large;
+
+}
+
+.glassicon i {
+  margin-top: 1em;
+  background-color: blue;
+}
+
+input {
+  height: 40px;
+  width: 350px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.taboption {
+  display: block;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.mobilecomponent-container {
+  align-items: center;
+  text-align: center;
+  transition: all 2s linear;
+}
+
+.mobilecomponent {
+  border: solid;
+  text-align: center;
+  margin: auto;
+}
+
+.card {
+  margin-top: 1em;
+  justify-content: center;
+  display: inline;
+  width: 20%;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.297);
+}
+
+.m-auto {
+  justify-content: center;
+}
+
+
+.menu {
+  position: sticky;
+  top: 4.7em;
+  background-color: white;
+  margin-top: 1em;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  z-index: 5;
+}
+
+.menu>button {
+  text-decoration: none;
+
+  border: none;
+  background-color: transparent;
+}
+
+.menu>button::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 0%;
+  transition: all .4s;
+  border-bottom: 2px solid rgb(0, 0, 0);
+
+}
+
+.menu>button:hover::after {
+  width: 100%;
+}
+
+.form-control {
+  width: 30em;
+}
